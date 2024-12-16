@@ -39,7 +39,7 @@
                     // ]]
         ];
 
-        $key = "AIzaSyDkxKqH1wRjqti6V-kBADcfttF4zgcr31Y";
+        $key = "chat-chave";
         $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=$key";
 
         $ch = curl_init($url);
